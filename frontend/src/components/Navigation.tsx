@@ -22,10 +22,10 @@ export function Navigation({ isConnected }: NavigationProps) {
             <h1
               className="text-[44px] md:text-[56px] lg:text-[64px] font-black tracking-tight"
               style={{
-                backgroundImage:
-                  "linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #ec4899 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
+                  color: "#2563eb",                 // same blue as your gradient start
+                  WebkitTextFillColor: "#2563eb",   // important if you previously used transparent fill
+                  WebkitBackgroundClip: "initial",
+                  backgroundImage: "none",
                 letterSpacing: "-0.03em",
               }}
             >

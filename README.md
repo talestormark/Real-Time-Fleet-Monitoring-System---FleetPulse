@@ -1,8 +1,11 @@
 # FleetPulse - Real-Time Fleet Monitoring System
 
-A production-grade full-stack platform for monitoring and managing fleets of GPS-enabled devices in real-time. FleetPulse provides comprehensive tracking of device status, locations, telemetry data, and critical events.
+A production-grade full-stack platform for monitoring and managing fleets of GPS-enabled devices in real-time. FleetPulse provides comprehensive tracking of device status, locations, telemetry data, and critical events. 
 
-![FleetPulse](https://img.shields.io/badge/status-production-green) 
+<img src="docs/screenshots/FleetPulse_Map.png" alt="Fleet dashboard1" width="600" />
+
+<img src="docs/screenshots/FleetPulse_Devices.png" alt="Fleet dashboard2" width="600" />
+
 
 ## Features
 [View detailed user stories →](docs/USER_STORIES.md)
