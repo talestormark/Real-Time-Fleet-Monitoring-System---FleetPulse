@@ -346,27 +346,6 @@ If ports 8000 or 5174 are in use:
 - Backend: Change Uvicorn port with `--port 8001`
 - Frontend: Vite will automatically try the next available port
 
-## User Stories & Documentation
-
-For complete feature documentation, user stories, and acceptance criteria, see:
-- [USER_STORIES.md](USER_STORIES.md) - Comprehensive user stories covering all features
-- [UI.md](UI.md) - UI design specifications and guidelines
-
-## Performance
-
-- **Dashboard Load Time**: < 2 seconds
-- **Real-time Update Latency**: < 1 second
-- **Concurrent Users**: Supports 100+ simultaneous connections
-- **Map Performance**: Smooth rendering with 100+ device markers
-
-## Browser Compatibility
-
-Tested and optimized for:
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
 ## Future Enhancements
 
 Potential features for future development:
